@@ -3,7 +3,7 @@
 
 A Windows application to keep track of time spent in computer.
 
-![Time in PC](https://github.com/al3xandr3/timeinPC/blob/master/timeinPC.png)
+![Time in PC](timeinPC.png)
 
 It runs on the taskbar and when hovering mouse over it, it shows:
 - Day: Total time in PC for today, includes inactive periods during the day.
