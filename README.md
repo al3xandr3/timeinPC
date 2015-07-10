@@ -36,8 +36,7 @@ Requires Microsoft Window and the .NET framework to be installed.
 
 Create a shortcut of the timeinPC.exe into the Startup Applications folder, and let it run on background, no need to input any data or worry about it. 
 
-( Startup Applications folder: C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup )
-
+( Startup Applications folder: `C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` )
 
 ## Development Requirements
 - F# .NET, open it up in Visual Studio and it should just work.
