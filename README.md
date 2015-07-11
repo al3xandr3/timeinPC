@@ -5,11 +5,17 @@ A Windows application to keep track of time spent in computer.
 
 ![Time in PC](https://github.com/al3xandr3/timeinPC/blob/master/timeinPC.png)
 
+[Time in PC Installer](https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe "Time in PC Installer")
+Download installer
+
 ### What it Does ?
 
 Keeps track and informs about the time spent in computer.
 
-It runs on the Windows taskbar and when hovering mouse over it, it shows:
+It runs on the Windows System Tray.
+
+When hovering mouse over it, it shows:
+
 - Day: Total time in PC for today, includes inactive periods during the day.
 - Active: Time Active in PC for today (excludes inactive periods).
 
