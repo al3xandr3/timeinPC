@@ -48,7 +48,7 @@ do let form = new Form()
 
        // update mouse hover info
        icon.Text <- "Day: " + toDayText + "\nActive: " + minsText
-       icon.BalloonTipTitle <- "Time in PC"
+       icon.BalloonTipTitle <- "Time In PC"
        match toDay with
        | 1   -> exportDataTotals(conn) // on 1st min export data
        | 480 -> icon.BalloonTipText <- "8 Hours Now"

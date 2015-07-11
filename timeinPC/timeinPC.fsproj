@@ -81,6 +81,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="installScript.nsi" />
     <EmbeddedResource Include="timer.ico" />
     <None Include="timeinPC.res" />
     <Content Include="FodyWeavers.xml" />
