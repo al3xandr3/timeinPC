@@ -5,8 +5,7 @@ A Windows application to keep track of time spent in computer.
 
 ![Time in PC](https://github.com/al3xandr3/timeinPC/blob/master/timeinPC.png)
 
-[Time in PC Installer](https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe "Time in PC Installer")
-Download installer
+[Download Installer](https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe "Time in PC Installer")
 
 ### What it Does ?
 
