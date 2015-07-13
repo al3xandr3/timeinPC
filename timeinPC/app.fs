@@ -18,6 +18,12 @@ do let form = new Form()
 
    let exeFolder = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)
 
+   (* Data Export dir*)
+   //create folder
+   let datafolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\Time in PC"
+   if System.IO.Directory.Exists(datafolder) = false then
+    System.IO.Directory.CreateDirectory(datafolder) |> ignore
+
    (* 1. Database Open *)
    let connString = sprintf "Data Source=%s;UTF8Encoding=True;Version=3" (exeFolder + @"\timeinPC.sqlite")
    let conn = db.openDB(connString)
@@ -26,7 +32,7 @@ do let form = new Form()
    // To Export all data to .csv
    let exportDataTotals (conn) =
        let total = db.getTotalMinsByDay(conn)
-       let fl = exeFolder + @"\timeinPC.csv"
+       let fl = datafolder + @"\timeinPC.csv"
        let wr = new StreamWriter(fl, false)
        wr.WriteLine("Date, Active (minutes), Day Start time, Day End time")
        for day, sum, start, stop in total do
@@ -79,7 +85,10 @@ do let form = new Form()
    
    // Menu: Exit
    let cm = new ContextMenu()
-   cm.MenuItems.Add("Exit", fun _ _ -> Environment.Exit(0) ) |> ignore
+   cm.MenuItems.Add("Data", fun _ _ -> 
+    exportDataTotals(conn)
+    System.Diagnostics.Process.Start(@"explorer.exe", datafolder) |> ignore ) |> ignore
+   cm.MenuItems.Add("Exit", fun _ _ -> Environment.Exit(0) ) |> ignore   
    icon.ContextMenu <- cm
    
    Application.Run()
