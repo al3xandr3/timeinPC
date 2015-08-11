@@ -34,7 +34,7 @@ do let form = new Form()
        let total = db.getTotalMinsByDay(conn)
        let fl = datafolder + @"\timeinPC.csv"
        let wr = new StreamWriter(fl, false)
-       wr.WriteLine("Date, Active (minutes), Day Start time, Day End time")
+       wr.WriteLine("Date,Active (minutes),Day Start time,Day End time")
        for day, sum, start, stop in total do
            wr.WriteLine(day + "," + sum.ToString() + "," + start + "," + stop)
        wr.Close()
