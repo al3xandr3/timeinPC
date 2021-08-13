@@ -11,12 +11,12 @@ It runs on the Windows taskbar and when hovering mouse over it, it shows:
 
 During a working day in computer there might be periods where we stop active use of PC (but are still working), for a meeting, a call, figure something out on paper, etc... So i think is useful to see both numbers: total time and just active time.
 
-
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Auto width -->
-<button class="btn"><i class="fa fa-download"></i> <a href="https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC.v1.zip">Download Release v1</a></button>
+<button class="zip_download_link"><i class="fa fa-download"></i><a href="https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe">Download Release v1</a></button>
+
 
 ### Data Export
 
@@ -37,7 +37,3 @@ Requires Microsoft Window and the .NET framework to be installed.
 Create a shortcut of the timeinPC.exe into the Startup Applications folder, and let it run on background, no need to input any data or worry about it. 
 
 Startup Applications folder: `C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
-
-<script type="text/javascript">
-$('aside#sidebar a.button').href = "https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC.v1.zip";
-</script>
