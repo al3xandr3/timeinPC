@@ -11,6 +11,32 @@ It runs on the Windows taskbar and when hovering mouse over it, it shows:
 
 During a working day in computer there might be periods where we stop active use of PC (but are still working), for a meeting, a call, figure something out on paper, etc... So i think is useful to see both numbers: total time and just active time.
 
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+
+<!-- Auto width -->
+<button class="btn"><i class="fa fa-download"></i> <a href="https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC.v1.zip">Download Release v1</a></button>
+
+[Download Build Release v1](https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC.v1.zip)
+
+
 ### Data Export
 
 To allow re-use of the data collected, it automatically exports on a daily basis into a csv file the data with a summary of the time spent on PC, by day:
