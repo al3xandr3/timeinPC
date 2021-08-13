@@ -29,7 +29,7 @@ During a working day in computer there might be periods where we stop active use
 </style>
 
 <!-- Auto width -->
-<button class="inner .btn"><i class="fa fa-download"></i><a href="https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe"><b>  Download Release v1</b></a></button>
+<button class=".btn"><i class="fa fa-download"></i><a href="https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe"><b>  Download Release v1</b></a></button>
 
 
 ### Data Export
