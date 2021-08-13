@@ -14,8 +14,22 @@ During a working day in computer there might be periods where we stop active use
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<style>
+  .btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+
 <!-- Auto width -->
-<button class="zip_download_link"><i class="fa fa-download"></i><a href="https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe">Download Release v1</a></button>
+<button class="inner"><i class="fa fa-download"></i><a href="https://github.com/al3xandr3/timeinPC/releases/download/v1/timeinPC-setup.exe">  Download Release v1</a></button>
 
 
 ### Data Export
