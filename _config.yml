@@ -1,0 +1,8 @@
+title: Time in PC
+description: A Windows application to keep track of time spent in computer.
+google_analytics: UA-39542235-4
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
