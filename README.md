@@ -45,3 +45,10 @@ Requires Microsoft Window and the .NET framework to be installed.
     + Install-Package System.Data.SQLite.Core
     + Install-Package Costura.Fody
 
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "xv6a524ujc");
+</script>
